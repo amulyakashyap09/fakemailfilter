@@ -1,0 +1,30 @@
+{
+  "name": "fakemailfilter",
+  "version": "1.0.0",
+  "description": "validates email if it exists before sending",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc mocha --timeout 15000 ./**.spec.js",
+    "cover": "nyc --reporter=lcov --reporter=text-lcov npm test",
+    "coveralls": "cat ./coverage/lcov.info | ./node_modules/.bin/coveralls"
+  },
+  "keywords": [
+    "email",
+    "validator",
+    "nodejs",
+    "spamfilter",
+    "filter",
+    "spam"
+  ],
+  "author": "Amulya Kashyap <amulyakashyap09@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "coveralls": "^3.0.2",
+    "istanbul": "^0.4.5",
+    "mocha": "^5.2.0"
+  },
+  "dependencies": {
+    "nyc": "^13.0.1"
+  }
+}
