@@ -15,7 +15,7 @@ FakeEmailFilter is a Nodejs library checks that particular email exists or not b
 ```javascript
 "use strict";
 
-const fmf = require("./fakeEmailFinder")
+const fmf = require("./fakeEmailFilter")
 
 const start = async ()=>{
     let fromEmail = "amulyakashyap09@gmail.com";
@@ -34,7 +34,7 @@ $ This email does not exists
 {
     "email": "amulyadoesnotexistsinemail@gmail.com", 
     "status": false, 
-    "error": e
+    "error": "this email does not exists"
 }
 
 $ This email does not exists
