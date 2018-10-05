@@ -1,4 +1,4 @@
-# Fake Mail Filter ![CI status](https://img.shields.io/badge/build-passing-brightgreen.svg)
+# Fake Mail Filter ![CI status](https://img.shields.io/badge/build-passing-brightgreen.svg) [![Coverage Status](https://coveralls.io/repos/github/amulyakashyap09/fakemailfilter/badge.svg?branch=master)](https://coveralls.io/github/amulyakashyap09/fakemailfilter?branch=master)
 
 FakeEmailFilter is a Nodejs library checks that particular email exists or not before sending the email.
 
