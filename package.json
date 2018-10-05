@@ -1,6 +1,6 @@
 {
   "name": "fakemailfilter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "validates email if it exists before sending",
   "main": "index.js",
   "scripts": {
